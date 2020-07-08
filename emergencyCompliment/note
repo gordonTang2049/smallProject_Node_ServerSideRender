@@ -1,0 +1,86 @@
+http://emergencycompliment.com/
+
+SEI Emergency Compliment, in Express
+Mission…
+Create your own version of Emergency Compliment, using Express. When a user visits the site, they should be 
+
+greeted with a WDI-themed compliment to cheer them up.
+
+Level 1: generic compliment
+When you visit the root ("/") path of your app, 
+
+it should display a generic greeting and a randomly chosen compliment. 
+The background color of the app should be randomized as well. Use server side technology (not client side js) to set the background color.
+
+Here are some sample compliments and colors (feel free to substitute in your own):
+
+compliments = [
+  "Your instructors love you",
+  "High five = ^5",
+  "Shut up and take my money",
+  "It's almost beer o'clock",
+  "The Force is strong with you"
+]
+
+colors = ["#FFBF00", "#0080FF","#01DF3A","#FF0080"]
+You may want to use the underscore or lodash module on the server to help you pick a random compliment & color
+
+Level 2: personalized compliment
+When you visit "/name" (ie: "/randy"), the greeting should personalize itself to the provided name. There should still be a random compliment and background color
+
+
+<!-- <%    }%> -->
+                <!-- <% for(let i =0; i < request.length; i++){ %>   -->
+
+
+<% for(let i = 0; i < value.length; i++){ %>   
+
+<% } %>
+
+// console.log(req)  JSON.stringify([1])
+    
+    // let key = Object.keys(req)
+    console.log('hello')
+            
+    let a = Object.values(req.headers)
+    // console.log(a.toString)
+
+
+// <%= requestKey[i] %>
+// requestKey : key,
+// 
+
+// 
+
+_readableState
+readable
+_events
+_eventsCount
+_maxListeners
+socket
+httpVersionMajor
+httpVersionMinor
+httpVersion
+complete
+headers
+rawHeaders
+trailers
+rawTrailers
+aborted
+upgrade
+url
+method
+statusCode
+statusMessage
+client
+_consuming
+_dumped
+next
+baseUrl
+originalUrl
+_parsedUrl
+params
+query
+res
+body
+route
